@@ -66,7 +66,8 @@ obj1.behaviors.add(behavior)
 
 
 tag no este en la instancia que este a la hora de añadir el behaviour
-para esto tagueo esto haciendo un objeto donde guardo el mapeo
+para esto tagueo esto haciendo un objeto donde guardo el mapeo(si tengo dos elementos con el mismo tag
+  sobrescribo al anterior)
 
 
 get_byTag esta mal tiene que haber un solo tag por instancia y tiene que buscar en el mapeo
