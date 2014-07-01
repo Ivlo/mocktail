@@ -1,0 +1,5 @@
+Link > UIComponent > UIElement > UIEntity
+
+UIElement = UIEntity.extend()
+UIComponent = UIElement.extend()
+Link = UIComponent.extend({})
