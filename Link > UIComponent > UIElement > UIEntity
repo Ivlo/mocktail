@@ -1,5 +1,21 @@
-Link > UIComponent > UIElement > UIEntity
+<!-- Link > UIComponent > UIElement > UIEntity
+
+UIElement = UIEntity.extend()
+UIComponent = UIElement.extend()
+Link = UIComponent.extend({}) -->
+
+
+Carrusel > UIComponent > UIElement > UIEntity
+Button > UIElement > UIEntity
+DragNDrop > UIBehavior > UIEntity
+
 
 UIElement = UIEntity.extend()
 UIComponent = UIElement.extend()
 Link = UIComponent.extend({})
+
+
+UIEntity=> es una clase global que tiene los elementos que comparten el resto
+
+
+new Carrusel()
